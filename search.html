@@ -8,10 +8,18 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/detail.css">
     <script src="scripts/menu.js"></script>
+    <style>
+        .Search_serpResults {
+            justify-content: flex-start;
+            margin-top: 10px;
+            padding-left: 4px;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
-    <div >
+    <div>
         <div id="Menu_menu_container" class="Menu_menu-hidden">
             <div id="Menu_menu">
                 <div class="Menu_menu_title">Menu</div>
@@ -818,7 +826,7 @@
                     </g>
                 </svg>
                 <div class="Header_search-box">
-                    <form action="/search">
+                    <form action="/search.html">
                         <input id="header-search" type="search" name="q" class="search-input"
                             placeholder="Looking for..." value="">
                         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.983 92.683">
@@ -857,32 +865,12 @@
                 </svg>
             </header>
             <main class="Page_main">
-                <div class="Page_page-header_banner" id="Page_page-header_banner-container">
-                    <h1>Hepatitis: Unveiling Varied Types, Symptoms, Treatment Options and Innovations in Combating
-                        Hepatitis C</h1>
-                    <span
-                        style="box-sizing:border-box;display:block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:absolute;top:0;left:0;bottom:0;right:0"><img
-                            alt="" sizes="100vw"
-                            src=""
-                            decoding="async"
-                            style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%"></span>
+                <div class="Search_serpResults">
+                    <script async src="https://cse.google.com/cse.js?cx=668cb14daafb64604">
+                    </script>
+                    <div class="gcse-searchresults-only" style="width: 100%; background-color: aqua;"></div>
                 </div>
-                <div class="Page_page-body">
-                    <section class="Page_page-body_section-x2 Page_page-body_meta-section" id="blog_detail_category">
-                        <!-- Category and Tag Here -->
-                    </section>
-                    <section class="Page_page-body_section-full">
-                        <!-- Content detail Here -->
-                    </section>
-                    <section class="Page_page-body_section-x2 Page_page-body_meta-section" id="Page_page-body_meta-section_last">
-                        <span>
-                            Published<!-- -->:<!-- --> <i>2025-05-08</i>
-                        </span>
-                        <span>
-                            From<!-- -->:<!-- --> <a href="/author/redazione/">Redazione</a>
-                        </span>
-                    </section>
-                </div>
+
                 <div class="Page_grid-items_section">
                     <h3>You may also like</h3>
                 </div>
@@ -955,7 +943,7 @@
                     </g>
                 </svg>
                 <div class="Footer_footer-search_large">
-                    <form action="/search">
+                    <form action="/search.html">
                         <input id="footer-search" type="search" name="q" class="search-input"
                             placeholder="Looking for..." value="">
                         <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.983 92.683">
@@ -1711,4 +1699,5 @@
 </body>
 <script type="module" src="scripts/detail_page.js" defer></script>
 <script type="module" src="scripts/data.js" defer></script>
+
 </html>
