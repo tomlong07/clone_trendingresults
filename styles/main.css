@@ -710,10 +710,10 @@ svg.menu-icon .st0 {
 
 @font-face {
 	font-family: Red Hat Display;
-	src: url(/fonts/red_hat_display-regular.ttf);
+	src: url(../fonts/red_hat_display-regular.ttf);
 }
 
 @font-face {
 	font-family: Mayeka Bold Demo;
-	src: url(/fonts/mayeka_bold_demo-regular.otf);
+	src: url(../fonts/mayeka_bold_demo-regular.otf);
 }

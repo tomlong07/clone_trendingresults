@@ -3,7 +3,7 @@ export const blog_arr = [
         id: 1,
         name: 'Hepatitis: Unveiling Varied Types, Symptoms, Treatment Options and Innovations in Combating Hepatitis C',
         slug: 'pages/detail_page.html',
-        img_url: '/assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
+        img_url: '../assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
         describe: 'Hepatitis encompasses various forms, each with its unique symptoms, treatment methods, and epidemiology. This article delves deep into the intricate details of Hepatitis C, examining its global incidence, transmission methods, prevalent symptoms, available treatments, and highlights promising research breakthroughs.',
@@ -90,7 +90,7 @@ export const blog_arr = [
         id: 2,
         name: 'Hepatitis: Unveiling Varied Types, Symptoms, Treatment Options and Innovations in Combating Hepatitis C',
         slug: 'pages/detail_page.html',
-        img_url: '/assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
+        img_url: '../assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
         describe: 'Hepatitis encompasses various forms, each with its unique symptoms, treatment methods, and epidemiology. This article delves deep into the intricate details of Hepatitis C, examining its global incidence, transmission methods, prevalent symptoms, available treatments, and highlights promising research breakthroughs.',
@@ -177,7 +177,7 @@ export const blog_arr = [
         id: 3,
         name: 'Hepatitis: Unveiling Varied Types, Symptoms, Treatment Options and Innovations in Combating Hepatitis C',
         slug: 'pages/detail_page.html',
-        img_url: '/assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
+        img_url: '../assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
         describe: 'Hepatitis encompasses various forms, each with its unique symptoms, treatment methods, and epidemiology. This article delves deep into the intricate details of Hepatitis C, examining its global incidence, transmission methods, prevalent symptoms, available treatments, and highlights promising research breakthroughs.',
@@ -264,7 +264,7 @@ export const blog_arr = [
         id: 4,
         name: 'Hepatitis: Unveiling Varied Types, Symptoms, Treatment Options and Innovations in Combating Hepatitis C',
         slug: 'pages/detail_page.html',
-        img_url: '/assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
+        img_url: '../assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
         describe: 'Hepatitis encompasses various forms, each with its unique symptoms, treatment methods, and epidemiology. This article delves deep into the intricate details of Hepatitis C, examining its global incidence, transmission methods, prevalent symptoms, available treatments, and highlights promising research breakthroughs.',
@@ -354,77 +354,77 @@ export const category_arr = [
         id: 1,
         name: 'Archive',
         slug: 'pages/search_category.html',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 2,
         name: 'Wellness',
         slug: 'wellness',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 3,
         name: 'Archive',
         slug: 'pages/search_category.html',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 4,
         name: 'Wellness',
         slug: 'wellness',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 5,
         name: 'Archive',
         slug: 'pages/search_category.html',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 6,
         name: 'Wellness',
         slug: 'wellness',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 7,
         name: 'Archive',
         slug: 'pages/search_category.html',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 8,
         name: 'Wellness',
         slug: 'wellness',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 9,
         name: 'Archive',
         slug: 'pages/search_category.html',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 10,
         name: 'Wellness',
         slug: 'wellness',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
     {
         id: 10,
         name: 'Wellness',
         slug: 'wellness',
-        img_url: '/assets/icon-wellness.png',
+        img_url: '../assets/icon-wellness.png',
         blog_arr: [1]
     },
 ];
