@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         category_arr.forEach(category => {
             const categoryItem = document.createElement('a');
             // categoryItem.href = `/category/${category.slug}`;
-            categoryItem.href = `/search_category.html`;
+            categoryItem.href = `search_category.html`;
             categoryItem.classList.add('IconsCategory_eb_body_content_item_action');
 
             categoryItem.innerHTML = `
