@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     headerLogos.forEach(function (logo) {
         logo.style.cursor = 'pointer';
         logo.addEventListener('click', function () {
-            window.location.href = '/';
+            window.location.href = '/clone_trendingresults/';
         });
     });
 
