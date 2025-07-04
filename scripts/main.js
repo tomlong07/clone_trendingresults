@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </span>
                 <div class="Home_grid-last-posts-item_content">
                     <h2>
-                        <a href="/${blog.slug}">
+                        <a href="${blog.slug}">
                             ${blog.name}
                         </a>
                     </h2>
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="Home_grid-items_content">
                 <h2>
-                    <a href="/${blog.slug}">
+                    <a href="${blog.slug}">
                         ${blog.name}
                     </a>
                 </h2>
@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span><a href="/author/${blog.author.toLowerCase().replace(/\s+/g, '-')}/">${blog.author}</a></span>
                 </div>
                 <div class="Home_grid-items_more">
-                    <a href="/clone_trendingresults/detail_page.html">Read more</a>
+                    <a href="${blog.slug}">Read more</a>
                 </div>
             </div>
         `;
