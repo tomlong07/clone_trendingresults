@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //tagCloudContainer
     if (tagCloudContainer) {
         trending.forEach(tag => {
-            const tagElement = document.createElement('span');
+            const tagElement = document.createElement('a');
             const fontSize = Math.floor(Math.random() * 11) + 20;
 
             const r = Math.floor(Math.random() * 51);
@@ -44,7 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const color = `rgb(${r}, ${g}, ${b})`;
 
             tagElement.className = 'tag-cloud-tag';
-            tagElement.setAttribute('url', tag.slug);
+            // tagElement.setAttribute('url', tag.slug);
+            tagElement.setAttribute('href', "./trending.html");
             tagElement.style.margin = '0px 3px';
             tagElement.style.verticalAlign = 'middle';
             tagElement.style.display = 'inline-block';
