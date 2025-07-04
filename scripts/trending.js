@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <div><span><i>${blog.create_time}</i></span><span><a href="/author/${blog.author}">${blog.author}</a></span>
                             </div>
                             <div class="Page_grid-items_more"><a
-                                    href="${blog.slug}">Read more</a>
+                                    href="/clone_trendingresults/detail_page.html">Read more</a>
                             </div>
                         </div>
             `;

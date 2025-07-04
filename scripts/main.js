@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span><a href="/author/${blog.author.toLowerCase().replace(/\s+/g, '-')}/">${blog.author}</a></span>
                 </div>
                 <div class="Home_grid-items_more">
-                    <a href="/${blog.slug}">Read more</a>
+                    <a href="/clone_trendingresults/detail_page.html">Read more</a>
                 </div>
             </div>
         `;
