@@ -4,6 +4,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const menu = document.getElementById('Menu_menu');
     const overlay = document.getElementById('Menu_menu-overlay');
 
+    const headerLogos = document.querySelectorAll('.Header_logo');
+
+    headerLogos.forEach(function (logo) {
+        logo.style.cursor = 'pointer';
+        logo.addEventListener('click', function () {
+            window.location.href = '/';
+        });
+    });
+
     function openMenu() {
         overlay.style.display = 'block';
         container.classList.remove('Menu_menu-hidden');
