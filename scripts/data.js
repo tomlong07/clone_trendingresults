@@ -2,7 +2,7 @@ export const blog_arr = [
     {
         id: 1,
         name: 'Hepatitis: Unveiling Varied Types, Symptoms, Treatment Options and Innovations in Combating Hepatitis C',
-        slug: './detail_page.html',
+        slug: '/clone_trendingresults/detail_page.html',
         img_url: './assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
@@ -89,7 +89,7 @@ export const blog_arr = [
     {
         id: 2,
         name: 'Hepatitis: Unveiling Varied Types, Symptoms, Treatment Options and Innovations in Combating Hepatitis C',
-        slug: './detail_page.html',
+        slug: '/clone_trendingresults/detail_page.html',
         img_url: './assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
@@ -176,7 +176,7 @@ export const blog_arr = [
     {
         id: 3,
         name: 'Hepatitis: Unveiling Varied Types, Symptoms, Treatment Options and Innovations in Combating Hepatitis C',
-        slug: './detail_page.html',
+        slug: '/clone_trendingresults/detail_page.html',
         img_url: './assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
@@ -263,7 +263,7 @@ export const blog_arr = [
     {
         id: 4,
         name: 'Hepatitis: Unveiling Varied Types, Symptoms, Treatment Options and Innovations in Combating Hepatitis C',
-        slug: './detail_page.html',
+        slug: '/clone_trendingresults/detail_page.html',
         img_url: './assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
