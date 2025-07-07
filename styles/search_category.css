@@ -629,19 +629,19 @@ h2 {
 /*! CSS Used fontfaces */
 @font-face {
 	font-family: Roboto;
-	src: url(/fonts/Roboto-Regular.ttf);
+	src: url(../fonts/Roboto-Regular.ttf);
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Roboto;
-	src: url(/fonts/Roboto-Bold.ttf);
+	src: url(../fonts/Roboto-Bold.ttf);
 	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: Mayeka Bold Demo;
-	src: url(/fonts/mayeka_bold_demo-regular.otf);
+	src: url(../fonts/mayeka_bold_demo-regular.otf);
 }
