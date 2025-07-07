@@ -6,7 +6,7 @@ export const blog_arr = [
         img_url: './assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
-        describe: 'Hepatitis encompasses various forms, each with its unique symptoms, treatment methods, and epidemiology. This article delves deep into the intricate details of Hepatitis C, examining its global incidence, transmission methods, prevalent symptoms, available treatments, and highlights promising research breakthroughs.',
+        describe: 'In 2025, the women’s jeans industry is evolving with fresh trends, innovative designs, and a vibrant market landscape. This article explores new models, regional preferences, and value propositions to offer a comprehensive guide for consumers and fashion enthusiasts alike.',
         author: 'Redazione',
         create_time: '2025-05-08',
         content: `<p>Hepatitis is a medical condition marked by inflammation of the liver, predominantly caused by
@@ -93,7 +93,7 @@ export const blog_arr = [
         img_url: './assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
-        describe: 'Hepatitis encompasses various forms, each with its unique symptoms, treatment methods, and epidemiology. This article delves deep into the intricate details of Hepatitis C, examining its global incidence, transmission methods, prevalent symptoms, available treatments, and highlights promising research breakthroughs.',
+        describe: 'In 2025, the women’s jeans industry is evolving with fresh trends, innovative designs, and a vibrant market landscape. This article explores new models, regional preferences, and value propositions to offer a comprehensive guide for consumers and fashion enthusiasts alike.',
         author: 'Redazione',
         create_time: '2025-05-08',
         content: `<p>Hepatitis is a medical condition marked by inflammation of the liver, predominantly caused by
@@ -180,7 +180,7 @@ export const blog_arr = [
         img_url: './assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
-        describe: 'Hepatitis encompasses various forms, each with its unique symptoms, treatment methods, and epidemiology. This article delves deep into the intricate details of Hepatitis C, examining its global incidence, transmission methods, prevalent symptoms, available treatments, and highlights promising research breakthroughs.',
+        describe: 'In 2025, the women’s jeans industry is evolving with fresh trends, innovative designs, and a vibrant market landscape. This article explores new models, regional preferences, and value propositions to offer a comprehensive guide for consumers and fashion enthusiasts alike.',
         author: 'Redazione',
         create_time: '2025-05-08',
         content: `<p>Hepatitis is a medical condition marked by inflammation of the liver, predominantly caused by
@@ -267,7 +267,7 @@ export const blog_arr = [
         img_url: './assets/Hepatitis3A20Unveiling20Varied20Types2C20Symptoms2C20Treatment20Options20and20Innovations20in20Combating20Hepatitis20C.png',
         category: [1, 2],
         tags: ['hepatitis-c', 'wellness-hepatitis-c-women-', 'Wellness'],
-        describe: 'Hepatitis encompasses various forms, each with its unique symptoms, treatment methods, and epidemiology. This article delves deep into the intricate details of Hepatitis C, examining its global incidence, transmission methods, prevalent symptoms, available treatments, and highlights promising research breakthroughs.',
+        describe: 'In 2025, the women’s jeans industry is evolving with fresh trends, innovative designs, and a vibrant market landscape. This article explores new models, regional preferences, and value propositions to offer a comprehensive guide for consumers and fashion enthusiasts alike.',
         author: 'Redazione',
         create_time: '2025-05-08',
         content: `<p>Hepatitis is a medical condition marked by inflammation of the liver, predominantly caused by
@@ -424,6 +424,44 @@ export const category_arr = [
         id: 10,
         name: 'Wellness',
         slug: 'wellness',
+        img_url: './assets/icon-wellness.png',
+        blog_arr: [1]
+    },
+];
+
+export const category_arr1 = [
+    {
+        id: 1,
+        name: 'Archive',
+        slug: 'pages/search_category.html',
+        img_url: './assets/icon-wellness.png',
+        blog_arr: [1]
+    },
+    {
+        id: 2,
+        name: 'Internal home maintenance',
+        slug: 'wellness',
+        img_url: './assets/icon-wellness.png',
+        blog_arr: [1]
+    },
+    {
+        id: 3,
+        name: 'Archive',
+        slug: 'pages/search_category.html',
+        img_url: './assets/icon-wellness.png',
+        blog_arr: [1]
+    },
+    {
+        id: 4,
+        name: 'Wellness',
+        slug: 'wellness',
+        img_url: './assets/icon-wellness.png',
+        blog_arr: [1]
+    },
+    {
+        id: 5,
+        name: 'Archive',
+        slug: 'pages/search_category.html',
         img_url: './assets/icon-wellness.png',
         blog_arr: [1]
     },

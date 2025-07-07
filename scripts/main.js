@@ -1,4 +1,4 @@
-import { category_arr, blog_arr, trending } from './data.js';
+import { category_arr1, blog_arr, trending } from './data.js';
 
 
 
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //categoryContainer
     if (categoryContainer) {
-        category_arr.forEach(category => {
+        category_arr1.forEach(category => {
             const categoryItem = document.createElement('a');
             // categoryItem.href = `/category/${category.slug}`;
             categoryItem.href = `search_category.html`;
@@ -38,9 +38,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const tagElement = document.createElement('a');
             const fontSize = Math.floor(Math.random() * 11) + 20;
 
-            const r = Math.floor(Math.random() * 51);
-            const g = Math.floor(Math.random() * 101) + 100;
-            const b = Math.floor(Math.random() * 51);
+            const r = Math.floor(Math.random() * 40 + 43);
+            const g = Math.floor(Math.random() * 30 + 109);
+            const b = Math.floor(Math.random() * 40 + 164);
             const color = `rgb(${r}, ${g}, ${b})`;
 
             tagElement.className = 'tag-cloud-tag';
@@ -121,13 +121,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     </a>
                 </h2>
                 <p>${blog.describe}</p>
-                <div>
-                    <span><i>${blog.create_time}</i></span>
-                    <span><a href="/author/${blog.author.toLowerCase().replace(/\s+/g, '-')}/">${blog.author}</a></span>
-                </div>
-                <div class="Home_grid-items_more">
-                    <a href="${blog.slug}">Read more</a>
-                </div>
             </div>
         `;
 

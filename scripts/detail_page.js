@@ -23,13 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
                             </span>
                         </div>
                         <div class="Page_grid-items_content">
-                            <h2><a href="/tardive-dyskinesia-symptoms-treatments-and-emerging-research/">${blog.name}</a></h2>
+                            <h2><a href="${blog.slug}">${blog.name}</a></h2>
                             <p>${blog.describe}</p>
-                            <div><span><i>${blog.create_time}</i></span><span><a href="/author/${blog.author}">${blog.author}</a></span>
-                            </div>
-                            <div class="Page_grid-items_more"><a
-                                    href="${blog.slug}">Read more</a>
-                            </div>
                         </div>
             `;
 
@@ -87,10 +82,12 @@ function populateBlogDetailSections(blog) {
                 categorySection.appendChild(tagLink);
             });
         }
+
+        
     }
 
     // Content Section
-    const contentSection = document.querySelector('.Page_page-body_section-full');
+    const contentSection = document.getElementById('Page_page-body_section-full_content');
     if (contentSection && blog.content) {
         contentSection.innerHTML = blog.content;
     }
