@@ -472,6 +472,7 @@ h2 {
 	margin-bottom: 1rem;
 }
 
+.Footer_switchLangContainer div svg {
     border: 1px solid #035a7a;
     width: 3rem;
     height: 2rem
@@ -565,6 +566,7 @@ h2 {
 
 #Menu_menu_container #Menu_menu ul li span {
 	flex-grow: 1;
+	color: #2c3546;
 }
 
 #Menu_menu_container #Menu_menu ul li i {
